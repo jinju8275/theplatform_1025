@@ -1,0 +1,515 @@
+
+
+.bg1{width: 100%;
+	height: 100%;
+	background-color: #131415;
+	border: 1px solid #74c5b8;
+	position: absolute;
+	
+	}
+
+.bg2{width: 98%; 
+	height: 96%;
+	margin: 1% 1%;
+	background-color: #131415;
+	border: 1px solid #74c5b8;
+	position: absolute;
+	
+	
+	}
+
+.bg3{width: 97%;
+	height: 96%;
+	margin: 1% 1.5%;
+	background-color: #131415;
+	border: 1px solid #74c5b8;
+	position: absolute;
+	
+
+}
+
+.bg4{width: 92%;
+	height: 100%;
+	margin: 0% 4%;
+	background-color: #131415;
+	border: 1px solid #74c5b8;
+	position: absolute;
+	
+
+}
+
+.right-box{
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	position: absolute;
+
+}
+
+
+.left-box{
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: absolute;
+	
+
+}
+
+.center-box{
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+
+
+.stage{width: 37.8%;
+		height: 7%;
+		background-color: #131415;
+		border: 1px solid #74c5b8;
+		z-index: 2;
+
+		
+		}
+
+.window {
+		width: 5%;
+		height: 4%;
+		margin-left: 16%;
+		margin-right: 16%;
+		background-color: #74c5b8;
+		border: 1px solid #74c5b8;
+		margin-top: 1.5%;
+		
+}
+
+.window:hover{	background-color: red;
+				border: 1px solid red;}
+
+.bed 	{width: 8%;
+		height: 4%;
+		background-color: #131415;
+		border: 1px solid #74c5b8;
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-top: 1.5%;
+		
+		}
+
+
+
+
+@-webkit-keyframes jj {
+	0% { margin-top: 7.5%;
+
+	}
+
+	20% { margin-top: 11%;
+
+	}
+
+	40% { margin-top: 22%;
+
+	}
+
+	60% { margin-top: 33%;
+
+	}
+
+	80% { margin-top: 44%;
+
+	}
+
+	100% { margin-top: 55%;
+		
+	}
+}
+
+.main-stage{width: 24.5%;
+			height: 6.4%;
+			background-color: #131415;
+			border: 1px solid #74c5b8;
+			animation-name: jj;
+			animation-duration: 15s;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-out;
+			z-index: 9;
+			/*이 부분이 위에서 아래로 움직이게 할 수 있을까?*/
+		}
+
+
+
+.line{
+	  width: 1px;
+	  height: 155.5%;
+	  background-color: #74c5b8;
+	  transform: rotate(-50deg);
+		position: absolute;
+		margin-top: -16.3%;
+		z-index: 0;
+		
+	}
+
+.line2{
+	  width: 1px;
+	  height: 104.8%;
+	  background-color: #74c5b8;
+	  transform: rotate(17deg);
+		position: absolute;
+		margin-top: -1.4%;
+
+}
+
+.img1{position: absolute;
+	width: 20px;
+	margin-left: -22%;
+	margin-top: 4.7%;
+	animation-name: cup1;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+.img2{position: absolute;
+	width: 25px;
+	margin-left: -17%;
+	animation-name: bottle;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+
+}
+.img3{position: absolute;
+	width: 120px;
+	margin-left: -12%;
+	margin-top: 4.1%;
+	z-index: 4;
+	animation-name: plate1;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+	}
+
+.img4{position: absolute;
+	width: 160px;
+	margin-left: -3%;
+	z-index: 1;
+	margin-top: 2.94%;
+	animation-name: plate2;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+
+.img5{position: absolute;
+	width: 15px;
+	margin-left: -2%;
+	margin-top: 5.44%;
+	z-index: 5;
+	animation-name: cup2;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+
+	}
+.img6{position: absolute;
+	width: 44px;
+	margin-left:3%;
+	margin-top: 5.95%;
+	z-index: 6;
+	animation-name: plate3;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+
+.img7{position: absolute;
+	width: 85px;
+	margin-right:-9%;
+	margin-top: 4.368%;
+	animation-name: plate4;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+
+	}
+
+.img8{position: absolute;
+	width: 17px;
+	margin-right:-17%;
+	margin-top: 3.35%;
+	animation-name: cup3;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+	}
+
+.img9{position: absolute;
+	width: 23px;
+	margin-right:-20%;
+	margin-top: 0.8%;
+	animation-name: bottle2;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+	}
+
+@-webkit-keyframes cup1 {
+	0% { margin-top: 4.7%;
+
+	}
+
+	20% { margin-top: 8%;
+
+	}
+
+	40% { margin-top: 19%;
+
+	}
+
+	60% { margin-top: 30%;
+
+	}
+
+	80% { margin-top: 41%;
+
+	}
+
+	100% { margin-top: 52%;
+		
+	}
+}
+
+@-webkit-keyframes bottle {
+	0% { margin-top: 0%;
+
+	}
+
+	20% { margin-top: 3.5%;
+
+	}
+
+	40% { margin-top: 14.5%;
+
+	}
+
+	60% { margin-top: 25.5%;
+
+	}
+
+	80% { margin-top: 36.5%;
+
+	}
+
+	100% { margin-top: 47.5%;
+		
+	}
+}
+
+@-webkit-keyframes plate1 {
+	0% { margin-top: 4.1%;
+
+	}
+
+	20% { margin-top: 7.4%;  
+		
+
+	}
+
+	40% { margin-top: 18.4%;
+
+	}
+
+	60% { margin-top: 29.4%;
+
+	}
+
+	80% { margin-top: 40.4%;
+
+	}
+
+	100% { margin-top: 51.4%;
+		
+	}
+}
+
+@-webkit-keyframes plate2 {
+	0% { margin-top: 2.94%;
+
+	}
+
+	20% { margin-top: 6.3%;
+		
+	}
+
+	40% { margin-top: 17.3%;
+
+	}
+
+	60% { margin-top: 28.3%;
+
+	}
+
+	80% { margin-top: 39.3%;
+
+	}
+
+	100% { margin-top: 50.3%;
+		
+	}
+}
+
+@-webkit-keyframes cup2 {
+	0% { margin-top: 5.44%;
+
+	}
+
+	20% { margin-top: 8.8%;
+
+	}
+
+	40% { margin-top: 19.8%;
+
+	}
+
+	60% { margin-top: 30.8%;
+
+	}
+
+	80% { margin-top: 41.8%;
+
+	}
+
+	100% { margin-top: 52.8%;
+		
+	}
+}
+
+@-webkit-keyframes plate3 {
+	0% { margin-top: 5.95%;
+
+	}
+
+	20% { margin-top: 9.3%;
+
+	}
+
+	40% { margin-top: 20.3%;
+
+	}
+
+	60% { margin-top: 31.3%;
+
+	}
+
+	80% { margin-top: 42.3%;
+
+	}
+
+	100% { margin-top: 53.3%;
+		
+	}
+}
+
+@-webkit-keyframes plate4 {
+	0% { margin-top: 4.368%;;
+
+	}
+
+	20% { margin-top: 7.7%;
+
+	}
+
+	40% { margin-top: 18.7%;
+
+	}
+
+	60% { margin-top: 29.7%;
+
+	}
+
+	80% { margin-top: 40.7%;
+
+	}
+
+	100% { margin-top: 51.7%;
+		
+	}
+}
+
+@-webkit-keyframes cup3 {
+	0% { margin-top: 3.35%;
+
+	}
+
+	20% { margin-top: 6.7%;
+
+	}
+
+	40% { margin-top: 17.7%;
+
+	}
+
+	60% { margin-top: 28.7%;
+
+	}
+
+	80% { margin-top: 39.7%;
+
+	}
+
+	100% { margin-top: 50.7%;
+		
+	}
+}
+
+@-webkit-keyframes bottle2 {
+	0% { margin-top: 0.8%;
+
+	}
+
+	20% { margin-top: 4.2%;
+
+	}
+
+	40% { margin-top: 15.2%;
+
+	}
+
+	60% { margin-top: 26.2%;
+
+	}
+
+	80% { margin-top: 37.2%;
+
+	}
+
+	100% { margin-top: 48.2%;
+		
+	}
+}
+
+.main-text{color:#74c5b8;
+			font-size:25px;
+			width:20px;
+			word-wrap: break-word;
+			text-align:center;
+			line-height:70px;
+			position: absolute;
+			margin-top: 2.5%;
+			
+
+		}
+
+
